@@ -13,8 +13,8 @@ import java.util.*;
  * 连接QLSC_STU
  */
 public class Connect {
-    static String username = "201400301074";
-    static String password = "094534";
+    static String username = "你的学号";
+    static String password = "密码";
 
     public Map<String, String> loadCookie(Connection.Response response, String username, String password) {
         Map<String, String> map = response.cookies();
